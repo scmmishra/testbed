@@ -7,7 +7,7 @@ const arcticData = {
 	],
 	datasets: [
 		{
-			name: "Arctic Sea Ice Minimum",
+			name: "Arctic Sea Ice Minimum (Satellite observations)",
 			values: [
 				7.67, 7.14, 7.3, 7.39, 6.81, 6.7, 7.41, 7.28, 7.37, 7.01,
 				6.14, 6.47, 7.47, 6.4, 7.14, 6.08, 7.58, 6.69, 6.54, 6.12,

@@ -1,5 +1,35 @@
+:root {
+	--gray-100: #F7FAFC;
+	--gray-200: #EDF2F7;
+	--gray-300: #E2E8F0;
+	--gray-400: #CBD5E0;
+	--gray-500: #A0AEC0;
+	--gray-600: #718096;
+	--gray-700: #4A5568;
+	--gray-800: #2D3748;
+	--gray-900: #1A202C;
+
+	--bg-color: var(--gray-100);
+	--fg-color: white;
+}
+
+body.dark-mode {
+	--bg-color: var(--gray-700);
+	--fg-color: var(--gray-800);
+
+	--fr-label-color: var(--gray-500);
+	--fr-axis-line-color: var(--gray-700);
+
+	--fr-stroke-width: 5px;
+	--fr-dataset-circle-stroke: #ffffff;
+	--fr-dataset-circle-stroke-width: var(--fr-stroke-width);
+
+	--fr-tooltip-title: var(--fr-label-color);
+	--fr-tooltip-label: var(--fr-label-color);
+	--fr-tooltip-value: white;
+	--fr-tooltip-bg: var(--gray-900);
+}
+
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;

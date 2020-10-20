@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "jest"
+  },
+  "webDependencies": {},
+  "devDependencies": {
+    "@snowpack/app-scripts-svelte": "^1.0.1",
+    "@snowpack/plugin-webpack": "^1.0.5",
+    "@testing-library/jest-dom": "^5.9.0",
+    "@testing-library/svelte": "^3.0.0",
+    "autoprefixer": "^9.8.0",
+    "cssnano": "^4.1.10",
+    "jest": "^26.0.1",
+    "parcel-bundler": "^1.12.4",
+    "postcss-cli": "^7.1.1",
+    "prettier": "^2.0.5",
+    "snowpack": "^2.0.3",
+    "svelte": "^3.23.0",
+    "tailwindcss": "^1.4.6"
+  },
+  "dependencies": {
+    "frappe-charts": "^1.5.2"
+  }
+}
